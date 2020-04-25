@@ -31,6 +31,14 @@ Saves the contents of the entire screen or of a window to a file.
       window is captured)) type: string default: ""
 ```
 
+It can be handy to add a simple script similar the following and configure your
+window manager to run it in response to a hotkey:
+
+```sh
+#!/bin/sh
+screenshot --region $HOME/temp/snap-$(date '+%H%M%S').png
+```
+
 ## Installation
 
 To compile the program on a Debian-based system, run the following command to
