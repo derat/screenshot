@@ -362,7 +362,7 @@ int main(int argc, char** argv) {
   } else {
     istringstream input(FLAGS_window);
     CHECK(!(input >> hex >> win).fail())
-        << "Unable to parse \"" << input << "\" as window "
+        << "Unable to parse \"" << FLAGS_window << "\" as window "
         << "(should be hexadecimal X ID)";
   }
 
