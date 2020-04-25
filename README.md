@@ -19,7 +19,7 @@ are supplied, the root window (i.e. the entire desktop) is captured.
 ## Usage
 
 ```sh
-% ./screenshot --help                                                                                                       [~/code/screenshot]
+% ./screenshot --help
 screenshot: Usage: screenshot [FLAGS] FILENAME.png
 
 Saves the contents of the entire screen or of a window to a file.
