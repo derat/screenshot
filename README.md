@@ -36,7 +36,7 @@ window manager to run it in response to a hotkey:
 
 ```sh
 #!/bin/sh
-screenshot --region $HOME/temp/snap-$(date '+%H%M%S').png
+screenshot --region $HOME/temp/snap-$(date '+%Y%m%d-%H%M%S').png
 ```
 
 ## Installation
